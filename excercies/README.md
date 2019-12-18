@@ -1,1 +1,1 @@
-# collectio of exercies
+# collection of exercies
