@@ -1,0 +1,1 @@
+While comparing two biological sequence a key point it's the alignment between them. To correctly evaluate each possible alignment and understand what is a the best one we need to have a scoring scheme. A basic scoring scheme give a score when a pair of residues alligned match, a negative score when there is a missmatch and another negative score for a gap.
