@@ -1,0 +1,21 @@
+-imporrt input file
+-define function to compute the 2 matrix
+	-size m+1 *  n+1 for both
+	-initialize 1° row
+	-initialize 1° column
+	-compute for each cell score for d,v,o
+	-add best to score matrix
+	-check which score we added and add relative move to move matrix
+	-return move and score matrix
+-define alignment function
+	-start from last row and column
+	-create 2 empty string for aligmnet
+	-get score
+	-while we are not in the 1° cell
+		-check corrisponding movement in the move matrix
+		-align the residue as stated by the movement
+	-revert 2 sequence
+	-return alignment
+-call matrix function
+-call function to get alignment and score
+-print them
